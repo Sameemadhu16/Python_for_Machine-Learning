@@ -19,9 +19,11 @@ print(2.3 + 2.3+ 2.3+ 2.3+ 2.3+ 2.3 +2.3+ 2.3+ 2.3+ 2.3+
 
 print(2.3*30)
 
-def dog_age():
-    dog = int(input("Enter the dog age: ")) * 7
-    print(dog)
+# def dog_age():
+#     dog = int(input("Enter the dog age: ")) * 7
+#     print(dog)
+# dog_age()
 
-dog_age()
-
+def add(a, b):
+    print(a + b)
+add(10, 20)
